@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Fishing Idle Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Fishing Idle Game! This is a fun and relaxing idle game where you can fish, earn money, upgrade your fishing rod, and interact with other fishermen bots.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Gameplay](#gameplay)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Idle Fishing**: Automatically fish over time and catch various types of fish.
+- **Upgrades**: Upgrade your fishing rod to increase your catch rate and catch more valuable fish.
+- **Interactive Bots**: Chat and interact with friendly and competitive bot fishermen.
+- **Real-time Logging**: Log fishing activities and track your progress.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To install and run the Fishing Idle Game locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
+    ```bash
+    git clone git@github.com:anthonybo/fishing-idle-game.git
+    cd fishing-idle-game
+    ```
 
-### `npm run build`
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Start the development server**:
+    ```bash
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will be available at `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+Once the development server is running, open your web browser and navigate to `http://localhost:3000` to start playing the Fishing Idle Game.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Commands
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `npm start`: Starts the development server.
+- `npm run build`: Builds the app for production.
+- `npm test`: Runs the test suite.
+- `npm run eject`: Ejects the app from Create React App configuration.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Gameplay
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Fishing**: Your character will automatically fish over time. Watch for notifications of caught fish or fish that got away.
+- **Upgrading**: Use the money earned from fishing to upgrade your rod and increase your catch rate.
+- **Interacting**: Interact with bot fishermen through the chat system and log your fishing activities.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! To contribute to this project, please follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Fork the repository**.
+2. **Create a new branch**:
+    ```bash
+    git checkout -b feature-name
+    ```
+3. **Make your changes**.
+4. **Commit your changes**:
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+5. **Push to the branch**:
+    ```bash
+    git push origin feature-name
+    ```
+6. **Create a new Pull Request**.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy fishing!
