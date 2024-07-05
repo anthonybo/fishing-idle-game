@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// Your custom SCSS goes here
+body {
+  font-family: Arial, sans-serif;
+}
+
+// Example of a custom class using SCSS
+.custom-button {
+  @apply bg-blue-500 text-white px-4 py-2 rounded;
+  &:hover {
+    @apply bg-blue-600;
+  }
+}
