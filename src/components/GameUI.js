@@ -6,22 +6,23 @@ import { Fish, DollarSign, Users, Anchor, Clock } from 'lucide-react';
 import { fishTypes } from '../utils/constants';
 
 const GameUI = ({
-  inventory,
-  fish,
-  money,
-  rodLevel,
-  rodCost,
-  catchRate,
-  messages,
-  fishermen,
-  playerName,
-  gameTime,
-  fishLog,
+  inventory = {},
+  fish = 0,
+  money = 0,
+  rodLevel = 1,
+  rodCost = 20,
+  catchRate = 1,
+  messages = [],
+  fishermen = [],
+  playerName = 'You',
+  gameTime = 0,
+  fishLog = [],
   upgradeFishingRod,
   sellFish,
   sellAllFish,
   sendMessage,
-  showAnimation
+  showAnimation,
+  onLogout
 }) => {
   const [showPlayerLogsOnly, setShowPlayerLogsOnly] = useState(false);
 
@@ -47,6 +48,9 @@ const GameUI = ({
               <Anchor className="mr-2" size={20} />
               <span>Rod Lvl {rodLevel}</span>
             </div>
+            <Button onClick={onLogout} className="bg-red-500 hover:bg-red-600">
+              Logout
+            </Button>
           </div>
         </div>
         <div>
